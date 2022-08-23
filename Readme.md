@@ -1,13 +1,15 @@
- * Author : Mogou igor green
- * Mail : igormogou86@gmail.com
- * File : Readme.md
- * Date : 2022/08/15 10:31:26
-
-This is a graph ploter program written in C and fully compatible with C++ (tested with gcc and g++)
-Which can draw a graph from datas stored in a single or multiple input files dynamically.
+* Author : Mogou Igor Green
+* Mail : igormogou86@gmail.com
+* Date : 2022/08/15 10:31:26
 
 
-**Usage** : 
+**Resume** :
+
+    This is a graph ploter program written in C and fully compatible with C++ (tested with gcc and g++)
+    Which can draw a graph from datas stored in a single or multiple input files dynamically.
+
+
+**Setup** : 
     
     to plot a file, you just need to specify the file path *after* the '-istream' command line option when starting the program
     for example : ploter.exe-istream "filePath.txt"

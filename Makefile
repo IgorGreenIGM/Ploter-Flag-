@@ -1,9 +1,9 @@
-### __MAKEFILE___ ###
+### ___MAKEFILE___ ###
 
 CC = g++
 CFLAGS = -m32
 LDFLAGS = -m32 -L"./lib" -lopengl32 -lglut32
-EXEC = bin/output.exe
+EXEC = bin/ploter.exe
 
 all : $(EXEC)
 

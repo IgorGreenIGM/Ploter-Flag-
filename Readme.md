@@ -1,15 +1,13 @@
-/*
  * @author : Mogou igor green
  * @mail : igormogou86@gmail.com
  * @file : Readme.md
- * @date : 2022-7-15 10:31
-*/
+ * @date : 2022/08/15 10:31:26
 
 This is a graph ploter program written in C and fully compatible with C++ (tested with gcc and g++)
 Which can draw a graph from datas stored in a single or multiple input files dynamically.
 
 
-Usage : 
+**Usage** : 
     
     to plot a file, you just need to specify the file path *after* the '-istream' command line option when starting the program
     for example : ploter.exe-istream "filePath.txt"
@@ -17,7 +15,7 @@ Usage :
     example : ploter.exe -istream path1.txt -istream path2.txt ...
 
 
-Options :
+**Options** :
 
     The ploter has many options that affect the graph displaying : 
          "-istream" : specify an input file path
@@ -31,7 +29,7 @@ Options :
          "-no-grid" : disable grid displaying option
 
 
-Running :
+**Running** :
 
     when you finished specifying the differents files and options and start the program, these are occuring :
         - the program start for each command (default commands such as "-grid" and "-axis" and users commands) initialize a struct that facilitate the command treatment (separing the first character, the command string and a pointer to the whole command)
@@ -42,7 +40,7 @@ Running :
         note :: default commands treatment occurs before users commands.
 
 
-Notes :
+**Notes** :
 
     [Librairies] : OpenGl for drawing methods | GLUT API for window and loading opengl context.
     [Examples] : a executable windows file is provided with 03 graph datas.
@@ -50,7 +48,7 @@ Notes :
                   in an input file, only one point should appear on each line, x value separed to y by a space ' '.
                   graphs are ploted in the order of the transmission of commands
 
-Features:
+**Features** :
 
     - manage negatives datas
     - add a legend so we could see which file is ploted with with color

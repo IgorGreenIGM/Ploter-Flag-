@@ -1,7 +1,7 @@
- * @author : Mogou igor green
- * @mail : igormogou86@gmail.com
- * @file : Readme.md
- * @date : 2022/08/15 10:31:26
+ * Author : Mogou igor green
+ * Mail : igormogou86@gmail.com
+ * File : Readme.md
+ * Date : 2022/08/15 10:31:26
 
 This is a graph ploter program written in C and fully compatible with C++ (tested with gcc and g++)
 Which can draw a graph from datas stored in a single or multiple input files dynamically.

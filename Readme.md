@@ -62,5 +62,6 @@
     
     This plot screenshot is created with "01.txt", "02.txt" and "03.txt" files specified in the bin folder in this repository using the command :
     ploter.exe -istream 01.txt -istream 02.txt -istream 03.txt -grid -axis -full -info -animation
-    
+
+<img src="./example.png">
     
